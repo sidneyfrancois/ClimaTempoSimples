@@ -28,11 +28,11 @@ namespace ClimaTempoSimples.Models
         public string Climate { get; set; }
 
         [Required]
-        [Column("TemperaturaMaxima")]
+        [Column("TemperaturaMinima")]
         public float MinTemperature { get; set; }
 
         [Required]
-        [Column("TemperaturaMinima")]
+        [Column("TemperaturaMaxima")]
         public float MaxTemperature { get; set; }
     }
 }

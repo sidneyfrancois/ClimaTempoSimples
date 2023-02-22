@@ -14,7 +14,7 @@ namespace ClimaTempoSimples.Models
         public int Id { get; set; }
 
         [Required]
-        [Column("Name")]
+        [Column("Nome")]
         [MaxLength(200)]
         public string Name { get; set; }
 
