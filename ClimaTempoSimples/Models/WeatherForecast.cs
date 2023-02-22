@@ -9,6 +9,7 @@ namespace ClimaTempoSimples.Models
     {
         public int Id { get; set; }
         public int CityId { get; set; }
+        public City City { get; set; }
         public DateTime ForecastDate { get; set; }
         public string Climate { get; set; }
         public float MinTemperature { get; set; }
