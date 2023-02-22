@@ -146,6 +146,7 @@
     </Compile>
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\State.cs" />
+    <Compile Include="Models\WeatherForecast.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
