@@ -16,6 +16,9 @@ namespace ClimaTempoSimples
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            // Register of dependency injection components
+            UnityConfig.RegisterComponents();
         }
     }
 }
