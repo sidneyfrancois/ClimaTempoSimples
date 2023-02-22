@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClimaTempoSimples.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,7 +9,13 @@ namespace ClimaTempoSimples.Controllers
 {
     public class WeatherForecastController : Controller
     {
-        // GET: WeatherForecast
+        private readonly AppDataContext _contextDB;
+
+        public WeatherForecastController(AppDataContext context)
+        {
+            _contextDB = context;
+        }
+
         public ActionResult Index()
         {
             return View();
