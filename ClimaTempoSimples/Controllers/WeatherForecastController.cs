@@ -18,6 +18,8 @@ namespace ClimaTempoSimples.Controllers
 
         public ActionResult Index()
         {
+            var test = _contextDB.States.ToList();
+
             return View();
         }
     }
